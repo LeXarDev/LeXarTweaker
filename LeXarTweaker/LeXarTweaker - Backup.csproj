@@ -9,7 +9,7 @@
     <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
     <StartupObject>LeXarTweaker.Program</StartupObject>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <UseWPF>False</UseWPF>
+    <UseWPF>True</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>

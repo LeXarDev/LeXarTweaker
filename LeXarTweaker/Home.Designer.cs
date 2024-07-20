@@ -132,7 +132,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.Untitled_1;
-            pictureBox1.Location = new Point(643, 197);
+            pictureBox1.Location = new Point(643, 161);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(286, 157);
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
@@ -162,7 +162,6 @@
             showpanel.ShadowDecoration.CustomizableEdges = customizableEdges20;
             showpanel.Size = new Size(956, 550);
             showpanel.TabIndex = 16;
-          //  showpanel.Paint += showpanel_Paint;
             // 
             // panelmenu
             // 
